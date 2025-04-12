@@ -189,7 +189,7 @@ namespace FotruneWheel.Pages
                         }
                     }
                 }
-                else if(mainWindow.currentGroup == 2)
+                else if(mainWindow.currentGroup == 2)//ded
                 {
                     Classes.Connection.FreezeShareFirstPrize(currentShares[number].unique_number, currentShares[number].sheetNumber);
                 }
